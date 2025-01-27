@@ -27,9 +27,9 @@ The asterisk `*` is the multiplication operator:
 //: The remainder operator observes the same precedence as multiplication and division.
 12 % 5 + 4 / 2
 //: For grouping, use parentheses `( )`, which take precedence over all other operators:
-(8 + 2) * 5
-120 / (6 * 2)
-(300 + 500 + 400) / (6 / 2)
+(8 + 2 - 7) * 5
+120 / (6 * 2) + 5
+(300 - 500 + 400) / (6 / 2)
 /*:
  - Experiment: 
 Practice using the playground like a calculator.

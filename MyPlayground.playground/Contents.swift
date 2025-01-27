@@ -15,7 +15,7 @@ print(pi, e)
 struct Person {
     let name: String
     let age: Int
-}
+
 func sayHello() {
     return "Hello, \(person.name)!"
 }
