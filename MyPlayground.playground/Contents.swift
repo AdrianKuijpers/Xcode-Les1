@@ -15,10 +15,14 @@ print(pi, e)
 struct Person {
     let name: String
     let age: Int
-
-func sayHello() {
-    return "Hello, \(person.name)!"
+    
 }
 
-let aPerson = Person(name: "An-twan", age: 25)
-aPerson.sayHello()
+    let aPerson = Person(name: "An-twan", age: 25)
+aPerson.sayHello();
+    
+    func sayHello() {
+         "Hello, \(aPerson.name)!"
+    }
+
+
